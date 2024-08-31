@@ -1,7 +1,7 @@
 import React from "react";
 import books from "../assest/data/books";
 import "../assest/css/starter.css";
-import BookCard from "./bookcard";
+import BookCard from "./BookCard";
 
 const BookList = () => {
   // map throgh books send it to book card

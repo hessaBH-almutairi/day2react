@@ -1,9 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import "./assest/css/starter";
-import book from "./assest/image";
-import BookCard from "../component/bookcard";
-import BookList from "./component/BookList";
+import Home from "./component/Home";
 function App() {
   /* 
   build -> write the code 
@@ -12,17 +8,7 @@ function App() {
    */
 
   //which one i will put
-  let bookstorename = "Bookstore";
-  return (
-    <div className="container">
-      <div className="bookstore">
-        <h1>{bookstore}</h1>
-        <img className="image" src={book} alt="BOOKSTORE" />
-      </div>
-
-      <BookList />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
